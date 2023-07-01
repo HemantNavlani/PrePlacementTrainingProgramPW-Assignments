@@ -1,6 +1,0 @@
-Q3. Differentiate between HTML Tags and Elements?
-
-Ans - The tags are particularly the various components we use to write our content within them and when the content is written inside it then the whole is known as element.
-Example - <p></p> This is a tag 
-whereas,
-<p>This is an element</p> Now after writing content in it this whole will be called an Element.
