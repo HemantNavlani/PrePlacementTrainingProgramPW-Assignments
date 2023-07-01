@@ -1,0 +1,5 @@
+Q2. Explain Semantic tags in html? And why do we need it?
+
+Ans - Semantic tags are the ones which are specially designed to increase the accessbility and help the screen readers to read the content accordingly, and help specially abled people to use the website properly.
+For Example - We have <b> tag which is used to make something bold which is not a semantic tag, so the screen readers does not give emphasis to the words inside the <b> tag whereas <strong> tag is a semantic tag which also makes the words bold and also help the screen readers to give more emphasis on these words while reading.
+
