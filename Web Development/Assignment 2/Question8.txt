@@ -1,0 +1,5 @@
+Q8.What is the difference between <figure> tag and <img> tag?
+
+<figure></figure> tag contains both opening and closing tags and can store image, illustration, a diagram, a code snippet or any other content.
+
+<img> tag contains onle opening tag and can only used for embedding images to the web pages
