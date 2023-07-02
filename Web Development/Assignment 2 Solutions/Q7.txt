@@ -1,0 +1,10 @@
+Q.7 What’s Grid & Flex and difference between them?
+
+Grid is used to manipulate our content in 2D like in the form of a matrix
+example -
+1 2 3
+4 5 6 
+7 8 9 
+
+Flex is used to manipulate our content horizontally or vertically.
+example - 1 2 3 4 5 6 7 8 9

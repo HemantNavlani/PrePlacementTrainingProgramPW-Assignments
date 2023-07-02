@@ -1,0 +1,6 @@
+Q.8 Difference between absolute and relative and sticky and fixed position explain with example.
+
+Absolute - In this the element takes the position of its ancestor and from there we can move that element top, bottom, left or right
+Relative - In this the element is freed from its position can be moved from its place left, right, top or bottom.
+Sticky - In this, the element is can be scrolled upto a limit and after that it sticks to top with reference to the border.
+Fixed - As the name suggests the element with this position is fixed and is not moved anywhere even after scrolling. example- The message button in PW Skills website of orange colour in bottom.

@@ -1,0 +1,4 @@
+Q.3 What is VW/VH ?
+
+VW stands for view width, it is unit in css used for declaring width
+VH stands for view height, it is also a unit in css for declaring height

@@ -1,0 +1,6 @@
+Q.6 What’s z-index and How does it Function ?
+
+Z-index is used to define the position of element in terms of stack means which element would be in the top of other.
+It is mainly used when you want to overlap two elements one over other.
+For example a Z-index of zero is default and if set z-index -1 then that element will go behind of the zero z-index element
+and if we set z index to 1 then it comes at the top.

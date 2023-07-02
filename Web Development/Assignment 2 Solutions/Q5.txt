@@ -1,0 +1,3 @@
+Q.5 How is Border-box different from Content Box?
+
+Content box is the default box in CSS and Border-Box is used so that we can easily set the border and margin of the box and can set our content to display according to our set parameters

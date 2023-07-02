@@ -1,0 +1,3 @@
+Q.1 What’s Box Model in CSS ? 
+
+The HTML element is stored inside a border and the inside space is known as cell padding and the oustside space is known as margin. This is known as box model.

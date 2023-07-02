@@ -1,0 +1,7 @@
+Q.4 Whats difference between Inline, Inline Block and block ?
+
+Inline elements are those which only take the space which is required, no extra space is taken by them, the next element used is shown just next to them in the same line.
+
+Block elements are those which takes whole of the block space, and the next element used appears in the next line of that block element
+
+Inline-Block element are those which are can have properties of both inline and block elements and we can manipulate them, and we can also define how much space it can use in a particular line.

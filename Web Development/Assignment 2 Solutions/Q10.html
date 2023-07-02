@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 10 Responsive site</title>
+    <style>
+        @media screen and (max-width:425px){
+            body{
+                background-color: red;
+            }
+            .change::after{
+                content: "Hello this size is for mobile";
+            }
+        }
+        @media  (min-width: 425px) and (max-width:768px){
+            body{
+                background-color: yellow;
+            }
+            .change::after{
+                content: "Hello this size is for tablet";
+            }
+        }
+        @media  (min-width: 768px) and (max-width:1024px){
+            body{
+                background-color: blue;
+            }
+            .change::after{
+                content: "Hello this size is for laptop";
+            }
+        }
+        @media  (min-width: 1024px) {
+            body{
+                background-color: green;
+            }
+            .change::after{
+                content: "Hello this size is for even bigger screens";
+            }
+        }
+    </style>
+</head>
+<body>
+    <p class="change"></p>
+</body>
+</html>
