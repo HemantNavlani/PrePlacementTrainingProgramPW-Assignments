@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            display:grid;
+            height: 760px;  
+            width: 1200px; 
+            grid-template-columns: repeat(3,1fr);
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+        .box{
+            background-color: blue;
+        }
+        .box1,.box2{
+            grid-row-start: 1;
+            grid-row-end: 4;
+            overflow: hidden;
+        }
+        .box3{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            overflow: hidden;
+        }
+        .box4{
+            grid-row-start: 4;
+            grid-row-end: 7;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            overflow: hidden;
+        }
+       
+        .box5{
+            grid-column-start: 3;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5; 
+            overflow: hidden;
+        }
+        .box6{
+             grid-row-start: 5;
+             grid-row-end: 7; 
+             overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="box box1">
+            <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=800" alt="">
+        </div>
+        <div class="box box2">
+            <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800" alt="">
+        </div>
+        <div class="box box3">
+            <img src="https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&w=800" alt="">
+        </div>
+        <div class="box box4">
+            <img src="https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg?auto=compress&cs=tinysrgb&w=800" alt="">
+        </div>
+        <div class="box box5">
+            <img src="https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=800" alt="">
+        </div>
+        <div class="box box6">
+            <img src="https://images.pexels.com/photos/1643113/pexels-photo-1643113.jpeg?auto=compress&cs=tinysrgb&w=800" alt="">
+        </div>
+    </div>
+</body>
+</html>
